@@ -1,5 +1,3 @@
-package BeforeSubmit;
-
 public class PGS_LV2_서버증설횟수 {
     class Solution {
         public int solution(int[] players, int m, int k) {
