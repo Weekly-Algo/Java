@@ -51,7 +51,7 @@ Algorithm-Study
 
  ## 👥 Members
 
-| <a href="https://github.com/HWISU96"><img src="https://github.com/HWISU96.png" width="100px" style="border-radius:50%"/></a> | <a href="https://github.com/Lee-Sujee"><img src="https://github.com/Lee-Sujee.png" width="100px" style="border-radius:50%"/></a> | <a href="https://github.com/minijee"><img src="https://github.com/minijee.png" width="100px" style="border-radius:50%"/></a> | <a href="https://github.com/pooky1219"><img src="https://github.com/pooky1219.png" width="100px" style="border-radius:50%"/></a> |
-| :---: | :---: | :---: | :---: |
-| **[@HWISU96](https://github.com/HWISU96)** | **[@Lee-Sujee](https://github.com/Lee-Sujee)** | **[@minijee](https://github.com/minijee)** | **[@pooky1219](https://github.com/pooky1219)** |
+| <a href="https://github.com/HWISU96"><img src="https://github.com/HWISU96.png" width="100px" style="border-radius:50%"/></a> | <a href="https://github.com/Lee-Sujee"><img src="https://github.com/Lee-Sujee.png" width="100px" style="border-radius:50%"/></a> | <a href="https://github.com/minijee"><img src="https://github.com/minijee.png" width="100px" style="border-radius:50%"/></a> | <a href="https://github.com/pooky1219"><img src="https://github.com/pooky1219.png" width="100px" style="border-radius:50%"/></a> | <a href="https://github.com/minseond"><img src="https://github.com/minseond.png" width="100px" style="border-radius:50%"/></a> | <a href="https://github.com/Dahyeonni"><img src="https://github.com/Dahyeonni.png" width="100px" style="border-radius:50%"/></a> |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **[@HWISU96](https://github.com/HWISU96)** | **[@Lee-Sujee](https://github.com/Lee-Sujee)** | **[@minijee](https://github.com/minijee)** | **[@pooky1219](https://github.com/pooky1219)** | **[@minseond](https://github.com/minseond)** | **[@Dahyeonni](https://github.com/Dahyeonni)** |
 
