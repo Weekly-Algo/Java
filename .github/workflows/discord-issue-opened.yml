@@ -1,0 +1,50 @@
+name: Notify Discord when issue opened
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send Discord notification
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+        run: |
+          jq -n \
+            --arg title "📌 새로운 문제 이슈가 등록됐어요!" \
+            --arg issue_title "$ISSUE_TITLE" \
+            --arg body "$ISSUE_BODY" \
+            --arg url "$ISSUE_URL" \
+            '{
+              embeds: [
+                {
+                  title: $title,
+                  description: "새로운 스터디 문제가 등록되었습니다.",
+                  fields: [
+                    {
+                      name: "📝 이슈 제목",
+                      value: $issue_title,
+                      inline: false
+                    },
+                    {
+                      name: "📄 본문",
+                      value: if ($body == "") then "본문 없음" else $body end,
+                      inline: false
+                    },
+                    {
+                      name: "🔗 링크",
+                      value: ("[이슈 바로가기](" + $url + ")"),
+                      inline: false
+                    }
+                  ]
+                }
+              ],
+              allowed_mentions: { parse: [] }
+            }' \
+          | curl -sS -f -H "Content-Type: application/json" -d @- "$DISCORD_WEBHOOK_URL"
