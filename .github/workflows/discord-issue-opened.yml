@@ -34,7 +34,7 @@ jobs:
                     },
                     {
                       name: "📄 본문",
-                      value: if ($body == "") then "본문 없음" else $body end,
+                      value: (if ($body == "") then "본문 없음" else $body end),
                       inline: false
                     },
                     {
