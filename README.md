@@ -16,17 +16,21 @@
 4. **제출**: `main` 브랜치로 **Pull Request(PR)** 생성
 
 ### 2. 폴더 구조
-브랜치는 하나지만, 파일이 섞이지 않게 **날짜(주차) 폴더**를 잘 만들어주세요.
+브랜치는 하나지만, 파일이 섞이지 않게 **월/날짜(주차)/이름 폴더** 순서로 만들어주세요.
 ```text
 Algorithm-Study
-├── 2026-01-07           # 해당 주차 날짜
-│   ├── Gildong          # 본인 이름
-│   │   ├── BOJ_1000.java
-│   │   └── README.md
-│   └── Cheolsu
+├── 2026-01              # 해당 월
+│   ├── 2026-01-07       # 해당 주차 날짜
+│   │   ├── Gildong      # 본인 이름
+│   │   │   ├── BOJ_1000.java
+│   │   │   └── README.md
+│   │   └── Cheolsu
+│   │       └── ...
+│   └── 2026-01-14
 │       └── ...
-├── 2026-01-14
-│   └── ...
+├── 2026-02
+│   └── 2026-02-04
+│       └── ...
 └── README.md
 ```
 
@@ -54,4 +58,3 @@ Algorithm-Study
 | <a href="https://github.com/HWISU96"><img src="https://github.com/HWISU96.png" width="100px" style="border-radius:50%"/></a> | <a href="https://github.com/Lee-Sujee"><img src="https://github.com/Lee-Sujee.png" width="100px" style="border-radius:50%"/></a> | <a href="https://github.com/minijee"><img src="https://github.com/minijee.png" width="100px" style="border-radius:50%"/></a> | <a href="https://github.com/pooky1219"><img src="https://github.com/pooky1219.png" width="100px" style="border-radius:50%"/></a> | <a href="https://github.com/minseond"><img src="https://github.com/minseond.png" width="100px" style="border-radius:50%"/></a> | <a href="https://github.com/Dahyeonni"><img src="https://github.com/Dahyeonni.png" width="100px" style="border-radius:50%"/></a> |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | **[@HWISU96](https://github.com/HWISU96)** | **[@Lee-Sujee](https://github.com/Lee-Sujee)** | **[@minijee](https://github.com/minijee)** | **[@pooky1219](https://github.com/pooky1219)** | **[@minseond](https://github.com/minseond)** | **[@Dahyeonni](https://github.com/Dahyeonni)** |
-
